@@ -11,8 +11,25 @@ All electrophysiological recordings are sampled at 10 KHz.
 Peak_train file is a sparse vector that reports the spike occurring, saving the spike amplitude.
 
 ### Code folder architecture:
+- BurstAnalysis folder:
+    * burstFeaturesAnalysis: functions to obtain the burst feautures
+    * StringMethod: functions to detect the burst
+
 - Conversion folder:
     * Txt2Mat: function to convert ```.txt``` format file in ```.mat``` format file
+
+- NetworkBurstAnalysis folder: 
+    * IBEi: functions to extract the Inter Burst Event interval (threshold used to detect the Network Burst)
+    * NBPropagation: function to analyse the Network Propagation
+    * NetBurstDetection: functions for the Network Burst Detection
+    * STH: function to compute the Time Spike Histogram
+
+- SpikeAnalysis folder:
+    * MFR: function to compute the Mean Firing Rate
+
+
+- Utilities folder: supplementary functions
+
       
 - StatsAnalysis folder (python 3.8 scripts, they take in input the outputs of the Matlab data extraction scripts):
     * Stats_Spiking_Bursting.py: functions to compute p values with kruskal-wallis (MFR, MBR, MFIB, RS)
