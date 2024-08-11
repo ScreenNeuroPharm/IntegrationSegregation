@@ -1,7 +1,6 @@
 # Integration
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ScreenNeuroPharm/Integration/blob/master/LICENSE)
 
-> The repository contains the data and the functions needed to reproduce the analysis reported in the article "Cortical, striatal, and thalamic populations self-organize into a functionally connected circuit with long-term memory properties".
 
 ## Details
 All uploaded scripts work with either a .mat or a .py format. 
